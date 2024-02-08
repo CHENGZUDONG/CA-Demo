@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Continuous Authentication for Academic Research</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Continuous Authentication Submission Portal</h1>
+        <p>Welcome to the Continuous Authentication Submission Portal for Academic Research. Please upload your data file in one of the following formats for authentication:</p>
+        <ul>
+            <li><strong>Images</strong>: JPEG, PNG</li>
+            <li><strong>Text</strong>: PDF, DOCX, TXT</li>
+            <li><strong>Audio</strong>: MP3, WAV</li>
+        </ul>
+        <input type="file" id="dataFile" accept=".jpeg, .png, .pdf, .docx, .txt, .mp3, .wav">
+        <button onclick="submitData()">Submit for Review</button>
+        <div id="feedback" class="feedback"></div>
+    </div>
+</body>
+</html>
